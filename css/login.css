@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #D599FF;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .voltar {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative; /* Ou absolute, ou fixed */
+    left: -500px; /* Move 50px para a esquerda */
+  }
+  
+  .esqueceu {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+    transform: translateX(500px);
+  }
+  
+  
+  h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  label {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  input {
+    background-color: #2B103D;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+    outline: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    height: 55px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #8425e4, #A239EA);
+    border: 2px solid #00A8FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .telefone {
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .ou {
+    color: white;
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .icones {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 30px;
+    color: black;
+  }
+  
